@@ -8,16 +8,15 @@ public class Task {
 
 	public static void main (String[] args) {
 		
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 		
-		WebDriver driver= new ChromeDriver();
+		WebDriver driver=new ChromeDriver();
 		
-		driver.get("http://newtours.demoaut.com/");
-		driver.
-		
-		
-		
+		driver.get("https://newtours.demoaut.com");
 	}
+	
+		
+
 }
 
 	

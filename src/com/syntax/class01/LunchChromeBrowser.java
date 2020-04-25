@@ -5,15 +5,18 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LunchChromeBrowser {
 
-	public static void main (String[] args) {
-		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+public static void main (String[] args) {
+	
+	System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+	
+	WebDriver driver=new ChromeDriver();
+	
+	driver.get("http://www.google.com");
+	String url=driver.getCurrentUrl();
+	System.out.println(url);
+	
+	System.out.println(driver.getTitle());
+}
+	
 		
-		WebDriver driver=new ChromeDriver();
-		
-		driver.get("https://www.google.com");
-		String url=driver.getCurrentUrl();
-		System.out.println(url);
-		
-		System.out.println(driver.getTitle());
-	}
 }
