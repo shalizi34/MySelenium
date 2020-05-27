@@ -18,7 +18,7 @@ public class FacebookSignUp extends CommonMethods{
 		
 		//select month
 		WebElement monthDD=driver.findElement(By.id("month"));
-		selectDdValue(monthDD, 1);
+		selectDdValue(monthDD, 8);
 		
 		//select day
 		WebElement dayDD=driver.findElement(By.id("day"));
