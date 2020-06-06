@@ -1,8 +1,9 @@
 package com.syntax.test;
 
-import com.syntax.pages.LoginPage;
 import com.syntax.utils.CommonMethods;
 import com.syntax.utils.ConfigsReader;
+
+import pages.LoginPage;
 
 public class HrmsLoginTest extends CommonMethods{
 

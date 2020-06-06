@@ -1,9 +1,10 @@
 package com.syntax.test;
 
-import com.syntax.pages.DashBoardPageElements;
-import com.syntax.pages.LoginPageElements;
 import com.syntax.utils.CommonMethods;
 import com.syntax.utils.ConfigsReader;
+
+import pages.DashBoardPageElements;
+import pages.LoginPageElements;
 
 public class LoginPageTest extends CommonMethods{
 
